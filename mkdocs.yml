@@ -1,0 +1,24 @@
+site_name: Workshop web scraping/APIs and efficient workflows
+site_url: https://github.io/hannesdatta/course-jads2020
+repo_url: https://github.com/hannesdatta/course-jads2020
+repo_name: 'GitHub'
+site_description: "Course syllabus for class on web scraping/APIs and efficient workflows, taught at JADS 's-Hertogenbosch in 2020."
+site_author: Hannes Datta
+
+nav:
+- Home: index.md
+- Syllabus and Preparation: syllabus.md
+#- Schedule: schedule.md
+- About the instructor: about.md
+
+theme:
+  name: 'material'
+  palette:
+    #primary: 'Blue Grey' # default: indigo, other colors see https://squidfunk.github.io/mkdocs-material/getting-started/
+    primary: 'indigo' # default: indigo, other colors see https://squidfunk.github.io/mkdocs-material/getting-started/
+    accent: 'indigo'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
