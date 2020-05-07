@@ -1,4 +1,6 @@
-# About the instructor
+# About the instructors
+
+## Hannes Datta
 
 **Hi, I'm Hannes Datta, an Associate Professor of Marketing at Tilburg University.**
 
@@ -21,3 +23,7 @@ LinkedIn: [https://www.linkedin.com/in/hannes-datta/]()
 Twitter: [https://twitter.com/hannesdatta]()
 
 Email: [h.datta@tilburguniversity.edu](mailto:h.datta@tilburguniversity.edu)
+
+## George Knox
+
+blabla
