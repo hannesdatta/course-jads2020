@@ -7,12 +7,12 @@ site_author: Hannes Datta
 
 nav:
 - Home: index.md
-- Syllabus and Preparation: 
-    - Session 1: sessions/session1.md
-    - Session 2: sessions/workflows.md
-    - Session 3: sessions/session2.md
-    - Session 4: sessions/scraping.md
-    
+- Syllabus and Preparation:
+    - Session 1 (Customer response models): sessions/customerresponse.md
+    - Session 2 (Efficient workflows): sessions/workflows.md
+    - Session 3 (Customer lifetime value): sessions/clv.md
+    - Session 4 (Web scraping and APIs): sessions/scraping.md
+
 #- Schedule: schedule.md
 - About the instructors: about.md
 
@@ -27,4 +27,3 @@ markdown_extensions:
   - admonition
   - attr_list
   - footnotes
-
