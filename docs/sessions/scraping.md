@@ -1,6 +1,6 @@
 # Course syllabus
 
-## Session 4: Managing large-scale online data collections using web scraping and APIs [(Hannes Datta)](about.md#hannes-datta)
+## Managing large-scale online data collections using web scraping and APIs [(Hannes Datta)](../about.md#hannes-datta)
 
 ### Learning Objectives
 

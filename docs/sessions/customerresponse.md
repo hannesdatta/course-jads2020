@@ -1,6 +1,6 @@
 # Course syllabus
 
-## Session 1: Customer Response Models [(George Knox)](about.md#george-knox)
+## Customer Response Models [(George Knox)](../about.md#george-knox)
 
 ### Learning Objectives
 

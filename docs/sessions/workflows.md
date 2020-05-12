@@ -1,6 +1,6 @@
 # Course syllabus
 
-## Session 1: Efficient Workflows for Data- and Computation-intensive Projects [(Hannes Datta)](about.md#hannes-datta)
+## Efficient Workflows for Data- and Computation-intensive Projects [(Hannes Datta)](../about.md#hannes-datta)
 
 ### Learning Objectives
 

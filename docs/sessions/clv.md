@@ -1,6 +1,6 @@
 # Course syllabus
 
-## Session 3: Customer Lifetime Value [(George Knox)](about.md#george-knox)
+## Customer Lifetime Value [(George Knox)](../about.md#george-knox)
 
 ### Learning Objectives
 
