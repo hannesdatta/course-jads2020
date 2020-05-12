@@ -1,6 +1,6 @@
 # About the instructor
 
-**Hi, I'm Hannes Datta, an Associate Professor of Marketing at Tilburg University.**
+**Hi, I'm [Hannes Datta](https://hannesdatta.com), an Associate Professor of Marketing at Tilburg University.**
 
 I develop advanced econometric models that guide managerial decision-making and inform public policy in the area of digital media consumption (e.g., on streaming services, on digital TV), branding, and retailing.
 
@@ -13,11 +13,10 @@ inaugural (2019) version of this course was born. Recently, I have launched an i
 
 You can best reach me (for short questions) via WhatsApp, on +31134668938. More formal inquiries should be [emailed](mailto:h.datta@tilburguniversity.edu).
 
+Links:
 
-Web: [https://tiu.nu/datta]() and [http://www.datta-online.com]()
-
-LinkedIn: [https://www.linkedin.com/in/hannes-datta/]()
-
-Twitter: [https://twitter.com/hannesdatta]()
-
-Email: [h.datta@tilburguniversity.edu](mailto:h.datta@tilburguniversity.edu)
+- [Website](https://hannesdatta.com)
+- [Research output](https://tiu.nu/datta)
+- [LinkedIn](https://www.linkedin.com/in/hannes-datta/)
+- [Twitter](https://twitter.com/hannesdatta)
+- [E-mail](mailto:h.datta@tilburguniversity.edu)
