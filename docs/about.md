@@ -26,4 +26,17 @@ Email: [h.datta@tilburguniversity.edu](mailto:h.datta@tilburguniversity.edu)
 
 ## George Knox
 
-blabla
+**Hi, I'm George Knox, an associate professor of marketing at Tilburg University**
+
+My interests are in developing models to predict and understand customer purchase and shopping behavior across different industries.  I have published papers on renting vs. buying, unplanned purchases, customer complaints, digital media consumption, and customer lifetime value.
+
+At Tilburg I teach Customer Analytics (masters) and Marketing Analytics for Big Data (bachelors).  My site below has more information.
+
+
+Web: [http://www.georgeknox.nl]()
+
+LinkedIn: [https://www.linkedin.com/in/gknox/]()
+
+Twitter: [https://twitter.com/GAHK]()
+
+Email: [G.Knox@tilburguniversity.edu](mailto:G.Knox@tilburguniversity.edu)
