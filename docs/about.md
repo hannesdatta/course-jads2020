@@ -1,4 +1,6 @@
-# About the instructor
+# About the instructors
+
+## Hannes Datta
 
 **Hi, I'm [Hannes Datta](https://hannesdatta.com), an Associate Professor of Marketing at Tilburg University.**
 
@@ -16,7 +18,22 @@ You can best reach me (for short questions) via WhatsApp, on +31134668938. More 
 Links:
 
 - [Website](https://hannesdatta.com)
-- [Research output](https://tiu.nu/datta)
+- [Research](https://tiu.nu/datta)
 - [LinkedIn](https://www.linkedin.com/in/hannes-datta/)
 - [Twitter](https://twitter.com/hannesdatta)
 - [E-mail](mailto:h.datta@tilburguniversity.edu)
+
+## George Knox
+
+**Hi, I'm George Knox, an associate professor of marketing at Tilburg University**
+
+My interests are in developing models to predict and understand customer purchase and shopping behavior across different industries. I have published papers on renting vs. buying, unplanned purchases, customer complaints, digital media consumption, and customer lifetime value.
+
+At Tilburg I teach Customer Analytics (masters) and Marketing Analytics for Big Data (bachelors). My site below has more information.
+
+Links:
+
+- [Website](http://www.georgeknox.nl)
+- [LinkedIn](https://www.linkedin.com/in/gknox/)
+- [Twitter](https://twitter.com/GAHK)
+- [E-mail](mailto:G.Knox@tilburguniversity.edu)

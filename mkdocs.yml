@@ -1,15 +1,20 @@
-site_name: Workshop web scraping/APIs and efficient workflows
+site_name: Workshop "Marketing Analytics" at JADS
 site_url: https://github.io/hannesdatta/course-jads2020
 #repo_url: https://github.com/hannesdatta/course-jads2020
 repo_name: 'GitHub'
-site_description: "Course syllabus for class on web scraping/APIs and efficient workflows, taught at JADS 's-Hertogenbosch in 2020."
+site_description: "Course syllabus for the Marketing Analytics sessions at JADS 's-Hertogenbosch in 2020."
 site_author: Hannes Datta
 
 nav:
 - Home: index.md
-- Syllabus and Preparation: syllabus.md
+- Syllabus and Preparation: 
+    - Session 1: sessions/session1.md
+    - Session 2: sessions/workflows.md
+    - Session 3: sessions/session2.md
+    - Session 4: sessions/scraping.md
+    
 #- Schedule: schedule.md
-- About the instructor: about.md
+- About the instructors: about.md
 
 theme:
   name: 'material'
@@ -22,3 +27,4 @@ markdown_extensions:
   - admonition
   - attr_list
   - footnotes
+

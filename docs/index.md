@@ -1,29 +1,29 @@
 # Welcome!
 
-Welcome to the course page for "Web scraping/APIs & efficient workflows for data- and computation-intensive projects", which will be online to students of the DEP program at JADS 's-Hertogenbosch in May and June 2020.
+Welcome to the course page for **Marketing Analytics**, which will be held online to students of the DEP program at JADS 's-Hertogenbosch in May and June 2020.
 
-!!! summary "Save the date"
+In these 4 sessions, you will learn about cutting-edge techniques for collecting online data, structuring data workflows, and predicting customer behavior.
 
-    **Session 1: Efficient workflows for data- and computation-intensive projects**
+!!! summary "Save the dates"
+
+	**Session 1: [Customer Response Models](sessions/customerresponse.md)** [(George Knox)](about.md#george-knox)
+
+    Date: 29 May 2020, 09.00 - 12.30
+
+    **Session 2: [Efficient workflows for data- and computation-intensive projects](sessions/workflows.md) ** [(Hannes Datta)](about.md#hannes-datta)
 
     Date: 29 May 2020, 13.30 - 17.00
 
-    **Session 2: "Web scraping/APIs"**
+    **Session 3: [Customer Lifetime Value](sessions/clv.md)** [(George Knox)](about.md#george-knox)
 
-    Date: 26 June 2020, 09.00 - 12.30
+    Date: 5 June 2020, 09.00 - 12.30
 
+    **Session 4: [Managing large-scale online data collections using web scraping/APIs](sessions/scraping.md)** [(Hannes Datta)](about.md#hannes-datta)
 
-My course features a mix of tutorials to prepare beforehand, and live-streamed lectures and interactive computer labs. This material will get you started in
+	Date: 26 June 2020, 09.00 - 12.30
 
-- managing data- and computation-intensive projects efficiently, and
-- using web scraping (i.e., the automatic extraction of information from publicly accessible websites) and Application Protocol Interfaces (APIs, i.e., a more structured way to obtain data from online sources) for your own data science projects.
-
-I have set up this site so that you can optimally prepare for the sessions. The site
-is work-in-progress, and will be updated once we get closer to the actual date.
 
 ## What's next
 
-- Check out the syllabus and how to prepare for each session (&rarr; [syllabus](syllabus.md))
-- Carefully go through the setup procedure for your computer, and verify that `R`, `python`, and `make` are callable from the command line/terminal (&rarr; [setup guide](http://tilburgsciencehub.com/setup))
-<!--- Review the detailed course schedule (&rarr; [schedule](schedule.md))-->
-- Read a bit about your instructor (&rarr; [about the instructor](about.md))
+- Check out **syllabus and preparation** on the left sidebar (desktop) or menu (mobile) to see how to prepare for each session
+- Get to know your instructors (&rarr; [about the instructors](about.md))
