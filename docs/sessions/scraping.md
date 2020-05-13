@@ -28,7 +28,9 @@
 -	Think about which online data may be useful for your own research; be able to show the website, database or API to everyone in class.
 
 - Set up your own laptop for in-class exercises
-    - On top of the software stack for Session #1, you need to install the "web scraping tools"; details are available on [https://tilburgsciencehub.com/setup/webscraping](https://tilburgsciencehub.com/setup/webscraping)
+    - On top of the software stack for your [session on workflows](workflows.md), you need to install the "web scraping tools"
+    - Details are available on [https://tilburgsciencehub.com/setup/webscraping](https://tilburgsciencehub.com/setup/webscraping).
+    - Please verify you have properly installed these tools by typing `chromedriver` on your terminal/Anaconda prompt. 
 
 - Browse my article on [how Spotify has changed music consumption](https://tiu.nu/spotify). Pay close attention to the data section.
 

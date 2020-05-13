@@ -27,9 +27,9 @@
 To be able to follow the class, you need to prepare the following things:
 
 - Setup your computer, following [our installation guide](http://tilburgsciencehub.com/setup). Please install:
-    - [Python 3.x via Anaconda](http://tilburgsciencehub.com/setup/python)
+    - [Python 3.x via Anaconda](http://tilburgsciencehub.com/setup/python). It is not enough to merely have access to a cloud-based version of Jupyter Notebook/Labs via your browser. We actually require a local Anaconda installation.
     - [R >= 3.x and RStudio](http://tilburgsciencehub.com/setup/r)
-    - [GNU Make](http://tilburgsciencehub.com/setup/make)
+    - [Make](http://tilburgsciencehub.com/setup/make) (it is preinstalled on Mac)
 
     - It is important that these software tools are callable from the command line/terminal.
         - Mac users: try whether running `python`, `R` and `make` from the terminal works.
