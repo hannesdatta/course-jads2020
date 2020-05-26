@@ -22,6 +22,21 @@ In these 4 sessions, you will learn about cutting-edge techniques for collecting
 
 	Date: 26 June 2020, 09.00 - 12.30
 
+!!! book "Course material"
+
+		We make use of a [shared folder on Dropbox](https://www.dropbox.com/sh/4lo2p830bs459db/AACw_wwzjvG1QKuEfu4Il85na?dl=0) to add files (e.g., our
+		slide decks) that you can use during the sessions.
+
+		Please also view our syllabus for each session, which you can access via the menu of this site.
+
+!!! warning "Computer setup done? If not, ask for help, please!"
+
+		To follow modules 2 and 4 (starting May 29), you need to have set up your computer correctly. If you have problems, please be in touch ASAP - at the latest by Thursday (May 28), so that we can schedule a quick meeting.
+
+		- Please install [TeamViewer](http://tilburgsciencehub.com/setup/teamviewer)
+		- Please schedule an appointment with us via WhatsApp (+31134668938).
+		- Please send us your TeamViewer ID and temporary password via WhatsApp at the agreed time.
+
 
 ## What's next
 
