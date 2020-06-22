@@ -29,7 +29,7 @@
 
 - Set up your own laptop for in-class exercises
     - On top of the software stack for your [session on workflows](workflows.md), you need to install the "web scraping tools"
-    - Details are available on [https://tilburgsciencehub.com/setup/webscraping](https://tilburgsciencehub.com/setup/webscraping).
+    - Details are available on [http://tilburgsciencehub.com/setup/webscraping_drivers/](http://tilburgsciencehub.com/setup/webscraping_drivers/).
     - Please verify you have properly installed these tools by typing `chromedriver` on your terminal/Anaconda prompt.
 
 - Browse my article on [how Spotify has changed music consumption](https://tiu.nu/spotify). Pay close attention to the data section.
