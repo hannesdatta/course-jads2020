@@ -6,7 +6,7 @@ In these 4 sessions, you will learn about cutting-edge techniques for collecting
 
 
 !!! tip "Updated module 4"
-		We have updated the course material for module 4, which now includes the web scraping tutorial.
+		We have updated the course material for module 4, which now includes the web scraping tutorial, and a corrected link to the setup instructions for `chromedriver`.
 
 !!! summary "Save the dates"
 
