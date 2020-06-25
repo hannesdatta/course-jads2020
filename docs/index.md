@@ -5,9 +5,9 @@ Welcome to the course page for **Marketing Analytics**, which will be held onlin
 In these 4 sessions, you will learn about cutting-edge techniques for collecting online data, structuring data workflows, and predicting customer behavior.
 
 
-!!! tip "Updated module 4"
-		We have updated the course material for module 4, which now includes the web scraping tutorial, and a corrected link to the setup instructions for `chromedriver`.
-
+!!! tip "Welcome to today's workshop!"
+		Please [directly jump to the syllabus/material of today's class](sessions/scraping.md).
+		
 !!! summary "Save the dates"
 
 	**Session 1: [Customer Response Models](sessions/customerresponse.md)** [(George Knox)](about.md#george-knox)
