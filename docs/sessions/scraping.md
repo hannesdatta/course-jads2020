@@ -35,3 +35,9 @@
 - Browse my article on [how Spotify has changed music consumption](https://tiu.nu/spotify). Pay close attention to the data section.
 
 - Go through the web scraping tutorial, which is a Jupyter Notebook ([preview as HTML](webscraper_socialblade.html), [download as .ipynb](webscraper_socialblade.ipynb)) that illustrates the basic steps of web scraping.
+
+### Course material during the workshop
+
+- workshop.ipynb - exercises during the workshop ([preview as HTML](workshop.html), [download as .ipynb](workshop.ipynb))
+- scraping template ([preview as HTML](webscraper_socialblade.html), [download as .ipynb](webscraper_socialblade.ipynb))
+- API template ([preview as HTML](template_api_mixer.html), [download as .ipynb](template_api_mixer.ipynb))
