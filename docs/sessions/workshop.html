@@ -13084,7 +13084,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em>This version: 25 June 2020</em></p>
+<p><em>This version: 26 June 2020</em></p>
 <p>Comments: h.datta@tilburguniversity.edu</p>
 <p><strong>Requires Python 3.x</strong></p>
 
@@ -13096,9 +13096,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Installation-requirements">Installation requirements<a class="anchor-link" href="#Installation-requirements">&#182;</a></h2><p>Please install the following packages through pip:</p>
 
-<pre><code>pip install lxml
-pip install selenium
-pip install cssselect</code></pre>
+<pre><code>pip install selenium</code></pre>
 <p>You also need a <em>current version of Chrome and chromedriver</em>; for setup instructions, see <a href="http://tilburgsciencehub.com/setup/webscraping_drivers/">http://tilburgsciencehub.com/setup/webscraping_drivers/</a>.</p>
 <p><strong>Only then will you be able to proceed to the next cells.</strong></p>
 
@@ -13156,14 +13154,6 @@ pip install cssselect</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>You also need a current version of chromedriver.exe, which you place in the same directory as this file. I have already downloaded it for this tutorial (for Windows); if you want to update the version and/or require a copy for Mac, visit the site below: <a href="https://sites.google.com/a/chromium.org/chromedriver/">https://sites.google.com/a/chromium.org/chromedriver/</a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Module-1)-Simple-HTTP-requests">Module 1) Simple HTTP requests<a class="anchor-link" href="#Module-1)-Simple-HTTP-requests">&#182;</a></h1>
 </div>
 </div>
@@ -13171,7 +13161,7 @@ pip install cssselect</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="(a)-without-header">(a) without header<a class="anchor-link" href="#(a)-without-header">&#182;</a></h2>
+<h2 id="(a)-requests---without-header">(a) requests - without header<a class="anchor-link" href="#(a)-requests---without-header">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13227,7 +13217,7 @@ pip install cssselect</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="(b)-with-header">(b) with header<a class="anchor-link" href="#(b)-with-header">&#182;</a></h2>
+<h2 id="(b)-requests---with-header">(b) requests - with header<a class="anchor-link" href="#(b)-requests---with-header">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13255,6 +13245,95 @@ pip install cssselect</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="(c)-selenium---remote-controlling-chrome">(c) selenium - remote controlling chrome<a class="anchor-link" href="#(c)-selenium---remote-controlling-chrome">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># let&#39;s start up the browser - once!</span>
+<span class="n">browser</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">Chrome</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># let&#39;s navigate to a page</span>
+<span class="n">browser</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://amazon.com&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># save the page</span>
+<span class="n">makedir</span><span class="p">(</span><span class="s1">&#39;module1/&#39;</span><span class="p">)</span>
+
+<span class="n">f</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s1">&#39;module1/amazon_selenium.html&#39;</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">browser</span><span class="o">.</span><span class="n">page_source</span><span class="p">)</span>
+<span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Your-turn"><font color="blue">Your turn</font><a class="anchor-link" href="#Your-turn">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Write some code to open, after one another, the following category pages at Amazon.
+Do you use <code>requests</code> or <code>selenium's webdriver</code>?</p>
+<p>urls = ['<a href="https://www.amazon.com/s?bbn=16225007011&amp;rh=n%3A16225007011%2Cn%3A172456&amp;dc&amp;fst=as%3Aoff&amp;qid=1593153247&amp;rnid=16225007011&amp;ref=lp_16225007011_nr_n_0">https://www.amazon.com/s?bbn=16225007011&amp;rh=n%3A16225007011%2Cn%3A172456&amp;dc&amp;fst=as%3Aoff&amp;qid=1593153247&amp;rnid=16225007011&amp;ref=lp_16225007011_nr_n_0</a>',
+'<a href="https://www.amazon.com/s?bbn=16225007011&amp;rh=n%3A16225007011%2Cn%3A193870011&amp;dc&amp;fst=as%3Aoff&amp;qid=1593153269&amp;rnid=16225007011&amp;ref=lp_16225007011_nr_n_1">https://www.amazon.com/s?bbn=16225007011&amp;rh=n%3A16225007011%2Cn%3A193870011&amp;dc&amp;fst=as%3Aoff&amp;qid=1593153269&amp;rnid=16225007011&amp;ref=lp_16225007011_nr_n_1</a>',
+'<a href="https://www.amazon.com/s?bbn=16225007011&amp;rh=n%3A16225007011%2Cn%3A13896617011&amp;dc&amp;fst=as%3Aoff&amp;qid=1593153269&amp;rnid=16225007011&amp;ref=lp_16225007011_nr_n_2">https://www.amazon.com/s?bbn=16225007011&amp;rh=n%3A16225007011%2Cn%3A13896617011&amp;dc&amp;fst=as%3Aoff&amp;qid=1593153269&amp;rnid=16225007011&amp;ref=lp_16225007011_nr_n_2</a>']</p>
+<p>Pause your code for 2 seconds after each requests, using</p>
+
+<pre><code>import time
+time.sleep(2)</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your turn here!</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Module-2)-Simple-HTTP-requests-to-an-API">Module 2) Simple HTTP requests to an API<a class="anchor-link" href="#Module-2)-Simple-HTTP-requests-to-an-API">&#182;</a></h1>
 </div>
 </div>
@@ -13268,6 +13347,19 @@ pip install cssselect</code></pre>
 <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://mixer.com/api/v1/channels&#39;</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="p">{})</span>
 <span class="n">data</span><span class="o">.</span><span class="n">text</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
